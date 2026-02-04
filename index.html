@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Emergent - Portail d'Information</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1596431109405-f3768b770543?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center; }
+        .card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-green-700">SÉNÉGAL<span class="text-yellow-500">.</span><span class="text-red-600">SN</span></div>
+            <div class="space-x-6">
+                <a href="#regions" class="hover:text-green-600 transition">Régions</a>
+                <a href="#gouvernement" class="hover:text-green-600 transition">Gouvernement</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-gradient h-[60vh] flex items-center justify-center text-center text-white px-4">
+        <div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Un Peuple, Un But, Une Foi</h1>
+            <p class="text-xl max-w-2xl mx-auto font-light">Découvrez la Teranga sénégalaise, de Dakar à Kédougou, et restez informé sur nos institutions.</p>
+        </div>
+    </header>
+
+    <section id="regions" class="py-16 container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12 border-b-4 border-green-600 w-48 mx-auto pb-2">Les 14 Régions</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="card bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="font-bold text-xl text-green-700 mb-2">Dakar</h3>
+                <p class="text-sm text-gray-600 italic mb-3">La Capitale</p>
+                <p class="text-gray-700">Centre politique, économique et culturel situé sur la presqu'île du Cap-Vert.</p>
+            </div>
+            <div class="card bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="font-bold text-xl text-green-700 mb-2">Saint-Louis</h3>
+                <p class="text-sm text-gray-600 italic mb-3">Ndar</p>
+                <p class="text-gray-700">Ville historique classée au patrimoine mondial de l'UNESCO.</p>
+            </div>
+            <div class="card bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="font-bold text-xl text-green-700 mb-2">Ziguinchor</h3>
+                <p class="text-sm text-gray-600 italic mb-3">La Casamance</p>
+                <p class="text-gray-700">Région verdoyante réputée pour sa végétation luxuriante et ses rizières.</p>
+            </div>
+            <div class="card bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="font-bold text-xl text-green-700 mb-2">Thiès</h3>
+                <p class="text-sm text-gray-600 italic mb-3">Le Rail</p>
+                <p class="text-gray-700">Grand carrefour ferroviaire et industriel du pays.</p>
+            </div>
+        </div>
+        <p class="text-center mt-8 text-gray-500 italic">Et aussi : Diourbel, Fatick, Kaffrine, Kaolack, Kédougou, Kolda, Louga, Matam, Sédhiou, Tambacounda.</p>
+    </section>
+
+    <section id="gouvernement" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-4 border-red-600 w-64 mx-auto pb-2">Le Gouvernement</h2>
+            
+            <div class="max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg bg-white">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-green-700 text-white">
+                        <tr>
+                            <th class="py-4 px-6 uppercase font-semibold text-sm">Poste</th>
+                            <th class="py-4 px-6 uppercase font-semibold text-sm">Titulaire</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-green-50 transition">
+                            <td class="py-4 px-6 font-semibold">Président de la République</td>
+                            <td class="py-4 px-6">Bassirou Diomaye Faye</td>
+                        </tr>
+                        <tr class="hover:bg-green-50 transition">
+                            <td class="py-4 px-6 font-semibold">Premier Ministre</td>
+                            <td class="py-4 px-6">Ousmane Sonko</td>
+                        </tr>
+                        <tr class="hover:bg-green-50 transition">
+                            <td class="py-4 px-6 font-semibold">Ministre de l'Intérieur</td>
+                            <td class="py-4 px-6">Jean Baptiste Tine</td>
+                        </tr>
+                        <tr class="hover:bg-green-50 transition">
+                            <td class="py-4 px-6 font-semibold">Ministre des Finances</td>
+                            <td class="py-4 px-6">Abdourahmane Sarr</td>
+                        </tr>
+                        <tr class="hover:bg-green-50 transition">
+                            <td class="py-4 px-6 font-semibold">Ministre des Affaires Étrangères</td>
+                            <td class="py-4 px-6">Yassine Fall</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center mt-6 text-sm text-gray-400">* Liste simplifiée basée sur les dernières nominations officielles.</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10 text-center">
+        <p class="mb-2">© 2026 - Portail d'Information Sénégal</p>
+        <p class="text-gray-500 text-sm italic">Fièrement conçu pour la Teranga.</p>
+    </footer>
+
+</body>
+</html>
